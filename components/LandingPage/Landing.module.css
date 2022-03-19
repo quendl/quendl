@@ -1,0 +1,72 @@
+.title {
+    font-family: "Roboto";
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 45px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 140px;
+    color: white;
+    text-align: center;
+}
+
+/* The text below the title */
+.subtitle {
+    font-family: sans-serif;
+    background-color: black;
+    font-size: 20px;
+    line-height: 3.4;
+    margin: 0;
+    color: white;
+    text-align: center;
+
+    word-wrap: break-word;
+    margin-top: -150px;
+}
+
+/* landing Page Bar */
+.home {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+}
+  
+.home > a {
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    word-spacing: 30px;
+}
+
+.home > a:hover {
+    color: white; 
+    border-bottom-style: solid;
+}
+
+/* Below subtitle buttons */
+.headbutton {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: black; /* Green */
+    border: solid;
+    color: white;
+    padding: 7.5px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .firstbutton {
+        font-size: 9px;
+    }
+}

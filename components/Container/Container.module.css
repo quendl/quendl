@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    width : 70rem;
+  }
+  
+  /*for the container*/
+  /*for mobile view*/
+  @media screen and (max-width: 450px){
+    .container {
+      width : 100%;
+    }
+  }
+  
+  /*for tablet view*/
+  @media (min-width:450px) and (max-width:801px){
+    .container {
+      width : 100%;
+    }
+  }
+  
+  @media (min-width:801px) and (max-width:1399px){
+    .container{
+      width: 100%;
+    }
+  }
