@@ -76,7 +76,7 @@
     width: 50%; /* removed long button area   */
     padding: 7.5px 52px; /* Text within the boxes     */
     margin: 25px 120px 13px; /* space between each button*/
-    margin-top: -5px; /* move the buttons higher */
+    margin-top: -10px; /* move the buttons higher */
   }
   /*  h1 title */
   .title {
