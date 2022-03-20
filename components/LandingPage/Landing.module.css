@@ -5,7 +5,7 @@
   font-size: 45px;
   line-height: 1.4;
   margin: 0;
-  padding: 140px;
+  padding: 150px;
   color: white;
   text-align: center;
 }
@@ -19,12 +19,11 @@
   margin: 0;
   color: white;
   text-align: center;
-
   word-wrap: break-word;
-  margin-top: -150px;
+  margin-top: -160px;
 }
 
-/* landing Page Bar */
+/* landing Page NavBar */
 .home {
   display: flex;
   justify-content: center;
@@ -51,7 +50,7 @@
 /* Below subtitle buttons */
 .headbutton {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  background-color: black; 
+  background-color: black;
   border: solid;
   color: white;
   padding: 7.5px 32px;
@@ -61,16 +60,36 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
   margin-right: 9px;
-
   /*   border-radius: 5px; rounded corners*/
-
- margin-left: 50px;
-  
+  margin-left: 50px;
 }
 
-@media screen and (max-width: 500px) {
-  .firstbutton {
-    font-size: 9px;
-    width: 100%;
+/* On screens that are less than 600px*/
+@media screen and (max-width: 600px) {
+  .headbutton {
+    font-size: 12px;
+    padding: 7.5px 15px;
+    float: none;
+    display: block;
+    /* TODO: Fix buttons in 600px view */
+
+    width: 50%; /* removed long button area   */
+    padding: 7.5px 52px; /* Text within the boxes     */
+    margin: 25px 120px 13px; /* space between each button*/
+    margin-top: -5px; /* move the buttons higher */
+  }
+  /*  h1 title */
+  .title {
+    font-size: 30px;
+    padding: 150px;
+    margin-top: -50px;
+    margin-left: -15px;
+  }
+
+  /*  Text below title */
+  .subtitle {
+    font-size: 15px;
+    margin-top: -150px;
+    margin-right: -40px;
   }
 }

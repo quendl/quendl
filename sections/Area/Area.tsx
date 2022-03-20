@@ -1,5 +1,5 @@
 import react from "react";
-import Image from 'next/image'
+import Image from "next/image";
 
 import styles from "../Area/Area.module.css";
 
@@ -7,9 +7,7 @@ import styles from "../Area/Area.module.css";
 function Area() {
   return (
     <>
-     
-     <p className={styles.ptag}>Hello, add your Code here</p>
-
+      <p className={styles.ptag}>Hello, add your Code here</p>
     </>
   );
 }
