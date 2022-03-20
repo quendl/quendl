@@ -20,10 +20,11 @@ function Landing() {
       </div>
       <h1 className={styles.title}>Quendl</h1>
       <h2 className={styles.subtitle}>A tool for humans and computers</h2>
-
-      <a className={styles.headbutton}>Install</a>
-      <a className={styles.headbutton}>Learn</a>
-      <a className={styles.headbutton}>Source</a>
+      <div className={styles.bar}>
+        <a className={styles.headbutton}>Install</a>
+        <a className={styles.headbutton}>Learn</a>
+        <a className={styles.headbutton}>Source</a>
+      </div>
     </div>
   );
 }
