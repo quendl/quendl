@@ -38,8 +38,8 @@
   display: flex;
   flex-direction: row;
 }
-.text_instagram_text_padding{
-  padding-left : 0.5rem;
+.text_instagram_text_padding {
+  padding-left: 0.5rem;
 }
 .text_instagram_icon_padding {
   padding-top: 3.1rem;
@@ -51,16 +51,16 @@
 
 /*for footer divs*/
 /*for mobile view*/
-@media screen and (max-width: 450px){
-  .container{
+@media screen and (max-width: 450px) {
+  .container {
     text-align: center;
     height: 42rem;
     width: 100%;
   }
-  .text_instagram_text_padding{
-    padding-left : 0;
+  .text_instagram_text_padding {
+    padding-left: 0;
   }
-  .text_instagram_icon_padding{
+  .text_instagram_icon_padding {
     padding-top: 2.5rem;
   }
   .flex {
@@ -69,12 +69,12 @@
     justify-content: center;
     height: 100%;
   }
-  .tabFlex{
+  .tabFlex {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .heading{
+  .heading {
     font-size: 1.3rem;
   }
   .text {
@@ -83,13 +83,13 @@
 }
 
 /*for tablet view*/
-@media (min-width:450px) and (max-width:801px){
-  .container{
+@media (min-width: 450px) and (max-width: 801px) {
+  .container {
     text-align: center;
     width: 100%;
     height: 47rem;
   }
-  .flex{
+  .flex {
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -99,12 +99,12 @@
   }
 }
 
-@media (min-width: 801px) and (max-width:1399px){
-  .container{
+@media (min-width: 801px) and (max-width: 1399px) {
+  .container {
     width: 100%;
     height: 32rem;
   }
-  .flex{
+  .flex {
     padding: 0 2rem;
     display: flex;
     flex-direction: row;
@@ -113,6 +113,7 @@
     align-items: center;
   }
 }
-
-
-
+.contactus {
+  font-weight: bold;
+  font-size: medium;
+}
