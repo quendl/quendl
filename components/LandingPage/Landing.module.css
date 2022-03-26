@@ -89,13 +89,13 @@
     font-size: 30px;
     padding: 150px;
     margin-top: -50px;
-    margin-left: -15px;
+    margin-left: -45px;
   }
 
   /*  Text below title */
   .subtitle {
     font-size: 15px;
     margin-top: -150px;
-    margin-right: -40px;
+    margin-right: -2px;
   }
 }
