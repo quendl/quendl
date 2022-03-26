@@ -70,6 +70,30 @@
   gap: 5px;
   background-color: black;
 }
+
+/*
+TODO: Add spinners above the title
+.spinner {
+  padding: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+*/
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
 /* On screens that are less than 600px*/
 @media screen and (max-width: 600px) {
   .headbutton {

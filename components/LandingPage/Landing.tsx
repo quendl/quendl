@@ -9,6 +9,7 @@ function Landing() {
   return (
     <div>
       <Helmet title="Quendl • Home" defer={false} />
+      <div className={styles.spinner}></div>
       <h1 className={styles.title}>Quendl</h1>
       <h2 className={styles.subtitle}>A tool for humans and computers</h2>
       <div className={styles.bar}>
