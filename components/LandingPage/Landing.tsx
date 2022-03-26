@@ -13,7 +13,7 @@ function Landing() {
       <h1 className={styles.title}>Quendl</h1>
       <h2 className={styles.subtitle}>A tool for humans and computers</h2>
       <div className={styles.bar}>
-        <a className={styles.headbutton} href="/install">
+        <a className={styles.headbutton}>
           Install
         </a>
         <a className={styles.headbutton}>Learn</a>
