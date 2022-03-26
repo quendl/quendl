@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 // Landing Layout takes this and puts it in the header (upper part of the website)
 function Landing() {
   return (
-    <div>
+    <div className={styles.div}>
       <Helmet title="Quendl • Home" defer={false} />
       <div className={styles.spinner}></div>
       <h1 className={styles.title}>Quendl</h1>
