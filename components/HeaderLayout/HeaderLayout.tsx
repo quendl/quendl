@@ -9,12 +9,12 @@ function Header() {
   return (
     <div>
       <div className={styles.home}>
-        <a className={styles.home} href="#home">
+        <a className={styles.home} href="">
           Home
         </a>
-        <a href="#home">Community</a>
-        <a href="https://github.com/quendl/quendl">Github</a>
-        <a href="#home">Contact</a>
+        <a href="">Community</a>
+        <a href="">Github</a>
+        <a href="">Contact</a>
       </div>
     </div>
   );
