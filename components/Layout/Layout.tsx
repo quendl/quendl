@@ -15,7 +15,7 @@ function Layout({
       <div className={styles.container}>
         <Header />
         <main>{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
