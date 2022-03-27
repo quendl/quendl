@@ -8,12 +8,13 @@ import Container from "../Container/Container";
 // Landing Layout takes this and puts it in the header (upper part of the website)
 function Landing() {
   return (
-    <div>
+    <div className={styles.div}>
       <Helmet title="Quendl • Home" defer={false} />
+      <div className={styles.spinner}></div>
       <h1 className={styles.title}>Quendl</h1>
       <h2 className={styles.subtitle}>A tool for humans and computers</h2>
       <div className={styles.bar}>
-        <a className={styles.headbutton} href="/install">
+        <a className={styles.headbutton}>
           Install
         </a>
         <a className={styles.headbutton}>Learn</a>
