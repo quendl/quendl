@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Landing.module.css";
 import { Helmet } from "react-helmet";
+import Container from "../Container/Container";
 // <Image src="/images/ang.jpg" width={60} height={60} />
 
 // This is the main layout of the landing page

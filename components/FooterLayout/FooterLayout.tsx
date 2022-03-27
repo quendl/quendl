@@ -2,12 +2,14 @@ import styles from "./FooterLayout.module.css";
 import Container from "../Container/Container";
 import Waves from "../Waves/Waves";
 import Area from "../../sections/Area/Area";
+import FooterBar from "../FooterBar/FooterBar";
 
 // INFO: Code for landing page between footer and header (h1) is in the Area.tsx file
 function Footer() {
   return (
     <>
       <footer className={styles.container}>
+        <FooterBar />
         <Area />
       </footer>
     </>
