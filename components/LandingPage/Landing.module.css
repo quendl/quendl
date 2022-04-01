@@ -82,6 +82,8 @@
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
+
+  /* TODO: Center, smaller, rounded corners, media queries (?)*/
 }
 
 @keyframes spin {
