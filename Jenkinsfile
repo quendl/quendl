@@ -3,6 +3,7 @@ pipeline {
         timeout(time: 1, unit: 'HOURS')
     }
     agent {
+        // try to update this to a newer version like ubuntu 20.04 ...
         label 'ubuntu-1804 && amd64 && docker'
     }
     stages {
