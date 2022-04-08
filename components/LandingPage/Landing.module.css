@@ -83,6 +83,8 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
 
+  
+
   /* TODO: Center, smaller, rounded corners, media queries (?)*/
 }
 
@@ -109,19 +111,25 @@
     margin: 25px 120px 13px; /* space between each button*/
     margin-top: -10px; /* move the buttons higher */
   }
-  /*  h1 title */
   .title {
     font-size: 30px;
     padding: 150px;
     margin-top: -50px;
-    margin-left: -65px;
+    margin-left: -45px;
   }
-
-  /*  Text below title */
   .subtitle {
     font-size: 15px;
     margin-top: -150px;
     margin-left: -35px;
+  }
+  .spinner {
+    margin-left: 230px;
+    padding: 50px;
+
+    /* lower/center the spinner (took me some time lmao) */
+    position: relative;
+    left: calc(180px - 200px);
+    top: calc(45vh - 220px);
   }
 }
 
@@ -139,15 +147,22 @@
     margin-top: -160px;
     margin-right: -35px;
   }
+  .spinner {
+    margin-left: 230px;
+    padding: 50px;
+    border-radius: 15px;
+
+    position: relative;
+    left: calc(570px - 200px);
+    top: calc(45vh - 220px);
+  }
 }
 
 /* View for ~smaller tablet/ipad view*/
 @media screen and (max-width: 500px) {
   .title {
-    font-size: 50px;
+    font-size: 40px;
     padding: 150px;
-    margin-top: -20px;
-    margin-right: -55px;
+    margin-top: -80px;
   }
-  
 }
