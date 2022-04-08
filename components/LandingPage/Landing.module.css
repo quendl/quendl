@@ -81,16 +81,16 @@
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
-  animation-timing-function: linear; 
+  animation-timing-function: linear;
   /* TODO: Center, smaller, rounded corners, media queries (?)*/
 }
 
 @keyframes spin {
   from {
-      transform:rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-      transform:rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -171,11 +171,10 @@
     padding: 50px;
     border-radius: 15px;
 
-
     position: relative;
     left: calc(170px - 280px);
     top: calc(40vh - 220px);
-    
   }
 }
+
 
