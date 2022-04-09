@@ -77,12 +77,16 @@
 .spinner {
   width: 100px;
   height: 100px;
+  margin: 0 auto;
   background-color: purple;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   /* TODO: Center, smaller, rounded corners, media queries (?)*/
+  position: relative;
+  top: calc(40vh - 220px);
+  border-radius: 15px;
 }
 
 @keyframes spin {
@@ -104,30 +108,41 @@
     /* TODO: Fix buttons in 600px view */
 
     width: 50%; /* removed long button area   */
-    padding: 7.5px 52px; /* Text within the boxes     */
+    /* padding: 7.5px 52px; Text within the boxes     */
+    text-align: center; /*use text-align property for text alignment*/
     margin: 25px 120px 13px; /* space between each button*/
     margin-top: -10px; /* move the buttons higher */
   }
   .title {
     font-size: 30px;
     padding: 150px;
-    margin-top: -40px;
-    margin-left: -60px;
+    /* margin-top: -40px;
+    margin-left: -60px; */
   }
   .subtitle {
     font-size: 14px;
     margin-top: -140px;
-    margin-left: -35px;
+    /* margin-left: -35px; */
   }
   .spinner {
-    margin-left: 230px;
+    /* margin-left: 230px; */
     padding: 0px;
+    border-radius: 15px;
 
     /* lower/center the spinner (took me some time lmao) */
     position: relative;
-    left: calc(180px - 230px);
+    /* left: calc(180px - 230px); */
     top: calc(45vh - 220px);
   }
+  .bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+  }
+
 }
 
 /* View for max screen desktop */
@@ -135,28 +150,23 @@
   .title {
     font-size: 40px;
     padding: 150px;
-    margin-top: -20px;
-    margin-left: -5rm;
-    margin-right: -28.5px;
+    /*margin-top: -20px;
+    margin-left: -5rem;
+    margin-right: -28.5px; */
   }
   .subtitle {
     font-size: 20px;
     margin-top: -160px;
-    margin-right: -35px;
+    /* margin-right: -35px; */
   }
-  /*
-  .spinner {
-    margin-left: 230px;
-    padding: 50px;
-    border-radius: 15px;
-
   
+  .spinner {
+    margin : 0 auto;
+    border-radius: 15px;
     position: relative;
-    left: calc(570px - 200px);
-    top: calc(45vh - 220px);
-    
+    top: calc(40vh - 220px);
   }
-  */
+ 
 }
 
 /* smallest screen */
@@ -164,16 +174,28 @@
   .title {
     font-size: 40px;
     padding: 150px;
-    margin-top: -80px;
+    /* margin-top: -80px; */
   }
   .spinner {
-    margin-left: 230px;
+    margin : 0 auto;
     padding: 50px;
     border-radius: 15px;
 
     position: relative;
-    left: calc(170px - 280px);
+    /* left: calc(170px - 280px); */
     top: calc(40vh - 220px);
+  }
+  .bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+  }
+  .headbutton{
+    width : 8rem;
+
   }
 }
 
