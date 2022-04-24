@@ -63,10 +63,17 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
   margin-right: 9px;
-  /*   border-radius: 5px; rounded corners*/
+  border-radius: 4.5px; 
   margin-left: 50px;
 }
-/* Centre the div so it looks nicer*/
+
+.headbutton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* Centre the div so it looks better */
 .bar {
   display: flex;
   justify-content: center;
@@ -106,7 +113,6 @@
     padding: 7.5px 15px;
     float: none;
     display: block;
-    /* TODO: Fix buttons in 600px view */
 
     width: 50%; /* removed long button area   */
     /* padding: 7.5px 52px; Text within the boxes     */
@@ -141,9 +147,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-
   }
-
 }
 
 /* View for max screen desktop */
@@ -168,7 +172,6 @@
     /* top: calc(40vh - 220px); */
     top : 5rem;
   }
- 
 }
 
 /* smallest screen */
@@ -200,11 +203,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-
   }
   .headbutton{
     width : 8rem;
-
   }
 }
 
