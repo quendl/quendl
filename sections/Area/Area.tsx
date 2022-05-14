@@ -10,7 +10,7 @@ function Area() {
     <>
       <div className={styles.boxContainer}>
           <div className={styles.box}>
-              <div><Image src={mascot} width={600} height={450}/></div>
+              <div><Image src={mascot} width={300} height={300}/></div>
               <div>
                   <h1 className={styles.boxText}>Ready to change the world?<br/>
                       its just one click away ...

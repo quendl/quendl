@@ -40,6 +40,20 @@
   justify-content: center;
 }
 
+/*gave the logo div flex area that is less than the text next to it*/
+.logoDiv {
+  flex : 1;
+  display: flex;
+  justify-content: center;
+}
+
+/*gave the text div flex area that is twice than the logo div next to it*/
+.textDiv {
+  flex : 2;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .home > a {
   font-family: sans-serif;
   font-size: 13px;
@@ -215,9 +229,7 @@
   }
   /* for shrinking the image on small screen */
   .logoContainer{
-    margin-top: 1.5rem;
-    width : 15rem;
-    height: 15rem;
+    display: none;
   }
 
   .title {
