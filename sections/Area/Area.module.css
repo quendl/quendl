@@ -10,8 +10,7 @@
 /* as container for the blackbox to add some padding and background color*/
 .boxContainer{
     width: 100%;
-    /*height: 40rem;*/
-    height: 100%;
+    height: 40rem;
     background-color: #2F2F2F;
     padding : 5rem 5rem 5rem 5rem;
 }
