@@ -69,6 +69,9 @@
     .boxButton{
         font-size: 12px;
     }
+    .boxText{
+        padding-left: 1rem;
+    }
 }
 
 /* On screens that are less than 600px*/
@@ -88,6 +91,9 @@
     .boxText{
         padding-left: 0.5rem;
     }
+    .boxLogo{
+        padding-left: 0;
+    }
 }
 
 /* On screens that are less than 500px*/
@@ -104,5 +110,8 @@
     }
     .boxButton{
         font-size: 12px;
+    }
+    .boxLogo{
+        padding-left: 0;
     }
 }
