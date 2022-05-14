@@ -24,9 +24,13 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-
 }
-/* the logo inside the blackbox*/
+
+.boxLogo{
+    padding-left: 3rem;
+}
+
+/* the text inside the blackbox*/
 .boxText{
     color: #ffffff;
 }

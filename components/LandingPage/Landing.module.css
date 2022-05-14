@@ -38,20 +38,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: relative;
+  height: 40rem;
 }
 
 /*gave the logo div flex area that is less than the text next to it*/
 .logoDiv {
-  flex : 1;
-  display: flex;
-  justify-content: center;
+  width : 100%;
+  z-index: 10;
+  padding-left: 10rem;
 }
 
 /*gave the text div flex area that is twice than the logo div next to it*/
 .textDiv {
-  flex : 2;
-  display: flex;
-  justify-content: flex-start;
+  width : 100%;
+  position: absolute;
 }
 
 .home > a {
@@ -81,9 +82,11 @@
   font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-right: 9px;
   border-radius: 5px;
-  margin-left: 50px;
+}
+
+.headbutton:nth-child(2) {
+  margin: 0 2rem;
 }
 
 .headbutton:hover {
@@ -125,14 +128,69 @@
   }
 }
 
+/* View for max screen desktop less than 1300px*/
+@media screen and (max-width: 1300px) {
+  .div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50rem;
+  }
+  /* for shrinking the image on small screen */
+  .logoContainer{
+    margin-top: 1.5rem;
+    width : 20rem;
+    height: 20rem;
+  }
+  .textDiv{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    top : 20rem;
+  }
+
+  .logoDiv{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .title {
+    font-size: 40px;
+    padding: 150px;
+    /*margin-top: -20px;
+    margin-left: -5rem;
+    margin-right: -28.5px; */
+  }
+  .subtitle {
+    font-size: 20px;
+    margin-top: -160px;
+    /* margin-right: -35px; */
+  }
+
+  .spinner {
+    margin : 0 auto;
+    border-radius: 15px;
+    position: relative;
+    /* top: calc(40vh - 220px); */
+    top : 5rem;
+  }
+  .headbutton:nth-child(2) {
+    margin: 0 1rem;
+  }
+}
+
 /* On screens that are less than 600px*/
 @media screen and (max-width: 600px) {
 
   .div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 57rem;
   }
   /* for shrinking the image on small screen */
   .logoContainer{
@@ -140,6 +198,11 @@
     width : 18rem;
     height: 18rem;
   }
+
+  .textDiv{
+    margin-left: 0;
+  }
+
   .headbutton {
     font-size: 12px;
     padding: 7.5px 15px;
@@ -148,10 +211,15 @@
 
     /* padding: 7.5px 52px; Text within the boxes     */
     text-align: center; /*use text-align property for text alignment*/
-    margin: 25px 120px 13px; /* space between each button*/
-    margin-top: -10px; /* move the buttons higher */
+    /*margin: 25px 120px 13px; !* space between each button*!
+    margin-top: -10px; !* move the buttons higher *!*/
     width : 9rem;
   }
+
+  .headbutton:nth-child(2) {
+    margin: 1rem 0;
+  }
+
   .title {
     font-size: 30px;
     padding: 150px;
@@ -165,13 +233,13 @@
   }
   .spinner {
     /* margin-left: 230px; */
-    padding: 0px;
+    padding: 0;
     border-radius: 15px;
 
     /* lower/center the spinner (took me some time lmao) */
     position: relative;
     /* left: calc(180px - 230px); */
-    top: calc(45vh - 220px);
+    /*top: calc(45vh - 220px);*/
   }
   .bar {
     display: flex;
@@ -180,42 +248,7 @@
     align-items: center;
     margin-top: 1rem;
   }
-}
 
-/* View for max screen desktop less than 1300px*/
-@media screen and (max-width: 1300px) {
-  .div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  /* for shrinking the image on small screen */
-  .logoContainer{
-    margin-top: 1.5rem;
-    width : 20rem;
-    height: 20rem;
-  }
-  .title {
-    font-size: 40px;
-    padding: 150px;
-    /*margin-top: -20px;
-    margin-left: -5rem;
-    margin-right: -28.5px; */
-  }
-  .subtitle {
-    font-size: 20px;
-    margin-top: -160px;
-    /* margin-right: -35px; */
-  }
-  
-  .spinner {
-    margin : 0 auto;
-    border-radius: 15px;
-    position: relative;
-    /* top: calc(40vh - 220px); */
-    top : 5rem;
-  }
 }
 
 /* smallest screen 500px*/
@@ -226,10 +259,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 42rem;
   }
   /* for shrinking the image on small screen */
   .logoContainer{
     display: none;
+  }
+
+  .textDiv{
+    top: 2rem;
   }
 
   .title {
