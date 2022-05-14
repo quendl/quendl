@@ -1,13 +1,24 @@
 import react from "react";
 import Image from "next/image";
-
 import styles from "../Area/Area.module.css";
+import mascot from "../../public/images/mascot.png";
+import Link from "next/link";
 
 // This is the code being displayed in the middle of the landing page.
 function Area() {
   return (
     <>
-      <p className={styles.ptag}>Hello, add your Code here</p>
+      <div className={styles.boxContainer}>
+          <div className={styles.box}>
+              <div><Image src={mascot} width={600} height={450}/></div>
+              <div>
+                  <h1 className={styles.boxText}>Ready to change the world?<br/>
+                      its just one click away ...
+                  </h1>
+                  <Link href={""}><p className={styles.boxButton}>SignUp</p></Link>
+              </div>
+          </div>
+      </div>
     </>
   );
 }
