@@ -6,7 +6,7 @@ import Link from "next/link";
 const Register: NextPage = () => {
   return (
     <>
-      <h1 className={styles.title}>Register</h1>
+     <h1 className={styles.title}>Register</h1>
     </>
   );
 };
