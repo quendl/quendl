@@ -7,7 +7,7 @@ const Pill: NextPage = () => {
         <>
             <div className={styles.pillContainer}>
                 <div className={styles.pill}>
-                    Fund Crystal and help it keep growing at 0 open collective
+                    Fund Quendl and help it keep growing
                 </div>
             </div>
         </>

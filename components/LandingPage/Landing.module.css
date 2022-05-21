@@ -44,7 +44,7 @@
 
 /*gave the logo div flex area that is less than the text next to it*/
 .logoDiv {
-  width : 100%;
+  width: 100%;
   z-index: 10;
   padding-left: 10rem;
   padding-top: 1rem;
@@ -52,7 +52,7 @@
 
 /*gave the text div flex area that is twice than the logo div next to it*/
 .textDiv {
-  width : 100%;
+  width: 100%;
   position: absolute;
 }
 
@@ -113,10 +113,8 @@
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  /* TODO: Center, smaller, rounded corners, media queries (?)*/
   position: relative;
-  /* top: calc(40vh - 220px); */
-  top : 5rem;
+  top: 5rem;
   border-radius: 15px;
 }
 
@@ -131,7 +129,7 @@
 
 /* View for max screen desktop less than 1300px*/
 @media screen and (max-width: 1300px) {
-  .div{
+  .div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -139,20 +137,20 @@
     height: 50rem;
   }
   /* for shrinking the image on small screen */
-  .logoContainer{
+  .logoContainer {
     margin-top: 1.5rem;
-    width : 20rem;
+    width: 20rem;
     height: 20rem;
   }
-  .textDiv{
-    width : 100%;
+  .textDiv {
+    width: 100%;
     display: flex;
     justify-content: center;
-    top : 20rem;
+    top: 20rem;
   }
 
-  .logoDiv{
-    width : 100%;
+  .logoDiv {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-left: 0;
@@ -172,11 +170,11 @@
   }
 
   .spinner {
-    margin : 0 auto;
+    margin: 0 auto;
     border-radius: 15px;
     position: relative;
     /* top: calc(40vh - 220px); */
-    top : 5rem;
+    top: 5rem;
   }
   .headbutton:nth-child(2) {
     margin: 0 1rem;
@@ -185,8 +183,7 @@
 
 /* On screens that are less than 600px*/
 @media screen and (max-width: 600px) {
-
-  .div{
+  .div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -194,13 +191,13 @@
     height: 57rem;
   }
   /* for shrinking the image on small screen */
-  .logoContainer{
+  .logoContainer {
     margin-top: 1.5rem;
-    width : 18rem;
+    width: 18rem;
     height: 18rem;
   }
 
-  .textDiv{
+  .textDiv {
     margin-left: 0;
   }
 
@@ -214,7 +211,7 @@
     text-align: center; /*use text-align property for text alignment*/
     /*margin: 25px 120px 13px; !* space between each button*!
     margin-top: -10px; !* move the buttons higher *!*/
-    width : 9rem;
+    width: 9rem;
   }
 
   .headbutton:nth-child(2) {
@@ -249,13 +246,11 @@
     align-items: center;
     margin-top: 1rem;
   }
-
 }
 
 /* smallest screen 500px*/
 @media screen and (max-width: 500px) {
-
-  .div{
+  .div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -263,11 +258,11 @@
     height: 42rem;
   }
   /* for shrinking the image on small screen */
-  .logoContainer{
+  .logoContainer {
     display: none;
   }
 
-  .textDiv{
+  .textDiv {
     top: 2rem;
   }
 
@@ -276,18 +271,18 @@
     padding: 150px 0;
     /* margin-top: -80px; */
   }
-  .subtitle{
+  .subtitle {
     font-size: 17px;
   }
   .spinner {
-    margin : 0 auto;
+    margin: 0 auto;
     padding: 50px;
     border-radius: 15px;
 
     position: relative;
     /* left: calc(170px - 280px); */
     /* top: calc(40vh - 220px); */
-    top : 5rem;
+    top: 5rem;
   }
   .bar {
     display: flex;
@@ -296,10 +291,8 @@
     align-items: center;
     margin-top: 1rem;
   }
-  .headbutton{
-    width : 7rem;
+  .headbutton {
+    width: 7rem;
     margin-top: 0.25rem;
   }
 }
-
-

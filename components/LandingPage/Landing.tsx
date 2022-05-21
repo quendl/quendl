@@ -16,7 +16,7 @@ function Landing() {
       <div className={styles.div}>
         <div className={styles.logoDiv}>
           <div className={styles.logoContainer}>
-            <Image src={logo} width={300} height={300}/>
+            <Image src={logo} width={300} height={250}/>
           </div>
         </div>
         <div className={styles.textDiv}><div>

@@ -15,7 +15,7 @@ function Area() {
                   <h1 className={styles.boxText}>Ready to change the world?<br/>
                       its just one click away ...
                   </h1>
-                  <Link href={""}><p className={styles.boxButton}>SignUp</p></Link>
+                  <Link href={"/signup"}><p className={styles.boxButton}>SignUp</p></Link>
               </div>
           </div>
       </div>
