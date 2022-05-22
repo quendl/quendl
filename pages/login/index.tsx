@@ -47,7 +47,7 @@ const Login: NextPage = () => {
         if (data.status_code === "SUCCESS") {
           localStorage.setItem("userData", JSON.stringify(data.data));
           router.push("/dashboard");
-        }else {
+        } else {
             setError("Invalid Credentials!")
         }
       })
