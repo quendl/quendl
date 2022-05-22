@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 // Forms
+import Helmet from "react-helmet";
 import * as yup from "yup";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -56,6 +57,7 @@ const Login: NextPage = () => {
 
   return (
     <>
+    <Helmet title="Quendl • Login" defer={false} />
       <Box
         component={"div"}
         sx={{
