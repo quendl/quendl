@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../LandingPage/Landing.module.css";
+import Link from "next/link";
 
 // <Image src="/images/ang.jpg" width={60} height={60} />
 
@@ -9,12 +10,14 @@ function Header() {
   return (
     <div>
       <div className={styles.home}>
-        <a className={styles.home} href="">
-          Home
-        </a>
-        <a href="">Community</a>
-        <a href="">Github</a>
-        <a href="">Contact</a>
+        <Link href={"/"}>
+          <a className={styles.home}>
+            Home
+          </a>
+        </Link>
+        <Link href={"#"}><a>Community</a></Link>
+        <Link href={""}><a>Github</a></Link>
+        <Link href={""}><a>Contact</a></Link>
       </div>
     </div>
   );
