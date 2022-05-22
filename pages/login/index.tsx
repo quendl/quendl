@@ -14,11 +14,10 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import {useState} from "react";
+import { useState } from "react";
 
 const Login: NextPage = () => {
-
-  const [ error, setError ] = useState("");
+  const [error, setError] = useState("");
 
   const router = useRouter();
 
@@ -49,7 +48,7 @@ const Login: NextPage = () => {
           localStorage.setItem("userData", JSON.stringify(data.data));
           router.push("/dashboard");
         } else {
-            setError("Invalid Credentials!")
+          setError("Invalid Credentials!");
         }
       })
       .catch((err) => console.log(err));
@@ -57,7 +56,7 @@ const Login: NextPage = () => {
 
   return (
     <>
-    <Helmet title="Quendl • Login" defer={false} />
+      <Helmet title="Quendl • Login" defer={false} />
       <Box
         component={"div"}
         sx={{
@@ -161,7 +160,14 @@ const Login: NextPage = () => {
               </Button>
             </Box>
           </form>
-            {error && <Typography sx={{ color : "red", fontSize : "1rem", marginY : "1rem" }} align={"center"}>{error}</Typography>}
+          {error && (
+            <Typography
+              sx={{ color: "red", fontSize: "1rem", marginY: "1rem" }}
+              align={"center"}
+            >
+              {error}
+            </Typography>
+          )}
           <Link href={"/register"}>
             <Typography
               color={"white"}

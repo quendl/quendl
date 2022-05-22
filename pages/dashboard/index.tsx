@@ -24,7 +24,7 @@ const Dashboard: NextPage = () => {
 
   return (
     <>
-    <Helmet title="Quendl • Dashboard" defer={false} />
+      <Helmet title="Quendl • Dashboard" defer={false} />
       <div>
         <h1>Dashboard</h1>
       </div>
