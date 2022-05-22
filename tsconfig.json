@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true
   },
+  // what files should be considered for compilation
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
