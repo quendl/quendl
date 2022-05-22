@@ -1,34 +1,175 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![version](https://img.shields.io/badge/Version-2-green)
+![Stars](https://img.shields.io/github/stars/quendl/quendl)
+![issues](https://img.shields.io/github/issues/quendl/quendl)
 
-## Getting Started
+# Quendl
 
-First, run the development server:
+🤸🏼‍♂️ A simple way to manage your life easier. 🤸🏼‍♂️
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+> ### 🤷🏼‍♀️ Why Quendl?
+>
+> Quendl makes it easy to [...], take a small break and let us do it instead.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> ### 🙋🏼‍♂️ How does it work?
+>
+> Simply register an account [here](), we will email you more informations that might be interesting for you - and your future work.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<hr></hr>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Privacy information
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Privacy Policy for Quendl.
 
-## Learn More
+At Quendl, accessible from Quendl or this source, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Quendl and how we use it.
 
-To learn more about Next.js, take a look at the following resources:
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Quendl. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the Free Privacy Policy Generator.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Consent
 
-## Deploy on Vercel
+By using Quendl, you hereby consent to our Privacy Policy and agree to its terms.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Information we collect
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+
+If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.
+
+When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.
+
+### How we use your information
+
+We use the information we collect in various ways, including to:
+
+Provide, operate, and maintain our website
+Improve, personalize, and expand our website
+Understand and analyze how you use our website
+Develop new products, services, features, and functionality
+Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes
+Send you emails
+Find and prevent fraud
+Log Files
+Quendl follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+
+### Cookies and Web Beacons
+
+Like any other website, Quendl uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+
+For more general information on cookies, please read the Cookies article on Quendl's Articles.
+
+### Advertising Partners Privacy Policies
+
+You may consult this list to find the Privacy Policy for each of the advertising partners of Quendl.
+
+Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Quendl, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+
+Note that Quendl has no access to or control over these cookies that are used by third-party advertisers.
+
+### Third Party Privacy Policies
+
+Quendl's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+
+You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
+
+### CCPA Privacy Rights (Do Not Sell My Personal Information)
+
+Under the CCPA, among other rights, California consumers have the right to:
+
+Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.
+
+Request that a business delete any personal data about the consumer that a business has collected.
+
+Request that a business that sells a consumer's personal data, not sell the consumer's personal data.
+
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+
+### GDPR Data Protection Rights
+
+We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+
+The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.
+
+The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
+
+The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
+
+The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
+
+The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
+
+The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
+
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+
+### Children's Information:
+
+Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+
+Quendl does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website or API, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+
+## Website Terms and Conditions of Use:
+
+1. Terms
+
+By accessing this Website, accessible from Quendl, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.
+
+2. Use License
+
+Permission is granted to temporarily download one copy of the materials on Quendl's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+
+modify or copy the materials;
+use the materials for any commercial purpose or for any public display;
+attempt to reverse engineer any software contained on Quendl's Website;
+remove any copyright or other proprietary notations from the materials; or
+transferring the materials to another person or "mirror" the materials on any other server.
+This will let Quendl to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the Terms Of Service Generator.
+
+3. Disclaimer
+
+All the materials on Quendl’s Website are provided "as is". Quendl makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Quendl does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.
+
+4. Limitations
+
+Quendl or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Quendl’s Website, even if Quendl or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.
+
+5. Revisions and Errata
+
+The materials appearing on Quendl’s Website may include technical, typographical, or photographic errors. Quendl will not promise that any of the materials in this Website are accurate, complete, or current. Quendl may change the materials contained on its Website at any time without notice. Quendl does not make any commitment to update the materials.
+
+6. Links
+
+Quendl has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Quendl of the site. The use of any linked website is at the user’s own risk.
+
+7. Site Terms of Use Modifications
+
+Quendl may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.
+
+8. Your Privacy.
+
+Please read the detailed Privacy Policy [here](https://github.com/quendl/quendl/blob/main/privacy.md).
+
+9. Governing Law
+
+Any claim related to Quendl's Website shall be governed by the laws of at without regards to its conflict of law provisions.
+
+## Copyright && License
+<h5 align="center">Copyright Quendl 2021. All Rights Reserved.</h5>
+
+Licensed under the Apache License, Version 2.0 (the "License")
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+              http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and
+limitations under the License.
+
+<h4 align="center">👨🏾‍💻 For the developers 👨🏾‍💻</h4>
+
+We are always looking for new contributors on our site.
+If you are interested to work with us, read the [guide](https://github.com/quendl/quendl/blob/main/contribute.md) before you submit a PR/open an issue.
