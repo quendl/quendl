@@ -1,14 +1,18 @@
 import { NextPage } from "next";
 import * as React from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
+
+// Forms
+import * as yup from "yup";
+import { Controller, useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+
+// Styling
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import * as yup from "yup";
-import { Controller, useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import { useRouter } from "next/router";
 
 const Login: NextPage = () => {
   const router = useRouter();
@@ -36,7 +40,7 @@ const Login: NextPage = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        if (data.status_code === " SUCCESS") {
+        if (data.status_code === "SUCCESS") {
           localStorage.setItem("userData", JSON.stringify(data.data));
           router.push("/dashboard");
         }

@@ -1,6 +1,14 @@
 import { NextPage } from "next";
 import * as React from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
+
+// Forms 
+import { useForm, Controller } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+
+// Styling 
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -8,10 +16,6 @@ import FormHelperText from "@mui/material/FormHelperText";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import Button from "@mui/material/Button";
-import { useForm, Controller } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import * as yup from "yup";
-import { useRouter } from "next/router";
 
 const Register: NextPage = () => {
   const router = useRouter();
@@ -24,7 +28,7 @@ const Register: NextPage = () => {
       .required()
       .matches(
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{6,50})/,
-        "Password Must be between 6-50 characters, One Uppercase, One Lowercase and One Number"
+        "Password must be between 6-50 characters, with at least one uppercase, lowercase letter and a number"
       ),
     confirmPassword: yup
       .string()
@@ -89,7 +93,7 @@ const Register: NextPage = () => {
             sx={{ marginBottom: "2rem", marginTop: "1rem", color: "#ffffff" }}
             align={"center"}
           >
-            Subscribe with email
+            Register a new account
           </Typography>
           <form onSubmit={handleSubmit(submitHandler)}>
             <Box component={"div"} sx={{ marginY: "1rem" }}>
@@ -238,7 +242,7 @@ const Register: NextPage = () => {
                     }
                     label={
                       <Typography variant={"subtitle2"}>
-                        I am over 12 years old AND if i am below 16 my parents
+                        I am over 12 years old AND if I am below 16, my parents
                         authorize me to access this website.
                       </Typography>
                     }
@@ -262,11 +266,13 @@ const Register: NextPage = () => {
                       <Typography variant={"subtitle2"}>
                         I accept the{" "}
                         <u>
-                          <Link href={"#"}> Terms of use </Link>
+                          <Link href={"/tos"}> Terms of use </Link>
                         </u>{" "}
                         and I acknowledge having read the{" "}
                         <u>
-                          <Link href={"#"}>Privacy and cookies policy</Link>
+                          <Link href={"/privacy"}>
+                            Privacy and cookies policy.
+                          </Link>
                         </u>
                       </Typography>
                     }
@@ -289,7 +295,7 @@ const Register: NextPage = () => {
                     label={
                       <Typography variant={"subtitle2"}>
                         I agree to receive communication from Quendl and their
-                        partners
+                        partners.
                       </Typography>
                     }
                   />
