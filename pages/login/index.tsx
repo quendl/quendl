@@ -1,12 +1,10 @@
 import { NextPage } from "next";
-import react from "react";
-import styles from "./login.module.css";
+import * as React from "react";
 import Link from "next/link";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import * as React from "react";
 import * as yup from "yup";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
