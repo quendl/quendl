@@ -87,14 +87,12 @@ const Login: NextPage = () => {
             }}
             align={"center"}
           >
-            Login with
+            Login
           </Typography>
           <Typography
             sx={{ marginBottom: "2rem", color: "#ffffff", fontSize: "1.5rem" }}
             align={"center"}
-          >
-            your Quendl Account
-          </Typography>
+          ></Typography>
           <form onSubmit={handleSubmit(submitHandler)}>
             <Box component={"div"} sx={{ marginY: "1rem" }}>
               <Typography variant={"subtitle1"} color={"white"} gutterBottom>
