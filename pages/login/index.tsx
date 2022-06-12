@@ -43,8 +43,10 @@ const Login: NextPage = () => {
       body: JSON.stringify(data),
     })
       .then((res) => res.json())
+      
       .then((data) => {
         if (data.status_code === "SUCCESS") {
+          console.log();
           localStorage.setItem("userData", JSON.stringify(data.data));
           router.push("/dashboard");
         } else {

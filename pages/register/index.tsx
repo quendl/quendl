@@ -59,7 +59,7 @@ const Register: NextPage = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        if (data.status_code === " SUCCESS") {
+        if (data.status_code === "SUCCESS") {
           router.push("/login");
         }
       })
