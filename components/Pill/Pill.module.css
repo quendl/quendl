@@ -1,32 +1,31 @@
 /*just empty container that has position absolute so that the pill shaped div inside it can be adjusted on it's edge above */
-.pillContainer{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+.pillContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 /*the rounded pill shaped div*/
-.pill{
-    position: absolute;
-    padding : 0.5rem 1.5rem 0.5rem 1.5rem;
-    border-radius: 1rem;
-    top : -1.2rem;
-    color: white;
-    width : max-content;
-    background-color: #000000;
-    z-index: 99;
-    border: 1px solid #ffffff;
+.pill {
+  position: absolute;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 1rem;
+  top: -1.2rem;
+  color: white;
+  width: max-content;
+  background-color: #000000;
+  z-index: 99;
+  border: 1px solid #ffffff;
 }
-
 
 /* smallest screen 500px*/
 @media screen and (max-width: 500px) {
-    /*rfor making is small on small mobile screen other screens don't have any issue with this*/
-    .pill{
-        width : 90%;
-        text-align: center;
-        font-size: 0.9rem;
-    }
+  /*rfor making is small on small mobile screen other screens don't have any issue with this*/
+  .pill {
+    width: 90%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
 }
