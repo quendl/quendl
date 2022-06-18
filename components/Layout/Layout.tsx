@@ -1,14 +1,13 @@
 import React from "react";
-import Footer from "../FooterLayout/FooterLayout";
 import styles from "../Layout/Layout.module.css";
-import Header from "../HeaderLayout/HeaderLayout";
+import Header from "../HeaderLayout/Header";
 import Head from "next/head";
 // The main layout of the page
 function Layout({
-  preview,
+ // preview,
   children,
 }: {
-  preview: string;
+ // preview: string;
   children: React.ReactNode;
 }): JSX.Element {
   return (
