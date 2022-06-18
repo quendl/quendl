@@ -1,4 +1,3 @@
-import react from "react";
 import Image from "next/image";
 import styles from "../Area/Area.module.css";
 import mascot from "../../public/images/mascot.png";
@@ -10,7 +9,7 @@ function Area() {
     <>
       <div className={styles.boxContainer}>
           <div className={styles.box}>
-              <div className={styles.boxLogo}><Image src={mascot} width={400} height={300}/></div>
+              <div className={styles.boxLogo}><Image src={mascot} alt="Mascot" width={400} height={300}/></div>
               <div>
                   <h1 className={styles.boxText}>Ready to change the world?<br/>
                       its just one click away ...
