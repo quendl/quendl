@@ -168,7 +168,7 @@ const Login: NextPage = () => {
               {error}
             </Typography>
           )}
-          <Link href={"/register"}>
+          <Link href={"/register"} passHref>
             <Typography
               color={"white"}
               sx={{
@@ -184,14 +184,15 @@ const Login: NextPage = () => {
               Not a member yet ?
             </Typography>
           </Link>
-          <Link href={"#"}>
+          <Link href={"/reset"} passHref>
             <Typography
               color={"white"}
-              sx={{ width: "100%", fontWeight: "bold", color: "#868783" }}
+              sx={{ width: "100%", fontWeight: "bold", color: "#868783", textDecoration: "underline", cursor: "pointer" }}
               align={"center"}
             >
               Forgot your password ?
             </Typography>
+
           </Link>
         </Box>
       </Box>
