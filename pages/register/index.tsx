@@ -199,25 +199,6 @@ const Register: NextPage = () => {
               />
             </Box>
             <Box component={"div"} sx={{ marginY: "1rem" }}>
-              <Typography variant={"subtitle1"} color={"white"} gutterBottom>
-                Voucher Code
-              </Typography>
-              <Controller
-                control={control}
-                // @ts-ignore
-                render={({ field }) => (
-                  <TextField
-                    {...field}
-                    variant={"standard"}
-                    fullWidth
-                    focused={true}
-                    sx={{ input: { color: "white" } }}
-                    type={"test"}
-                    placeholder={"voucher code"}
-                  />
-                )}
-                name={"voucherCode"}
-              />
             </Box>
             <Box
               component={"div"}

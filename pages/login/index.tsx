@@ -98,7 +98,7 @@ const Login: NextPage = () => {
           <form onSubmit={handleSubmit(submitHandler)}>
             <Box component={"div"} sx={{ marginY: "1rem" }}>
               <Typography variant={"subtitle1"} color={"white"} gutterBottom>
-                Email
+                Email / Username
               </Typography>
               <Controller
                 control={control}
@@ -111,7 +111,7 @@ const Login: NextPage = () => {
                     focused={true}
                     sx={{ input: { color: "white" } }}
                     type={"email"}
-                    placeholder={"email"}
+                    placeholder={"my@email.com"}
                     error={!!errors.email}
                     helperText={errors.email ? errors.email?.message : ""}
                   />
