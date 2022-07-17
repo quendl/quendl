@@ -4,10 +4,9 @@ import Header from "../HeaderLayout/Header";
 import Head from "next/head";
 // The main layout of the page
 function Layout({
- // preview,
   children,
 }: {
- // preview: string;
+  preview: string;
   children: React.ReactNode;
 }): JSX.Element {
   return (
