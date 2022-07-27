@@ -18,6 +18,8 @@
     "@mui/icons-material": "^5.5.1",
     "@mui/material": "^5.5.2",
     "@popmotion/popcorn": "^0.4.4",
+    "@splinetool/react-spline": "^2.2.1",
+    "@splinetool/runtime": "^0.9.82",
     "components": "^0.1.0",
     "fortawesome": "^0.0.1-security",
     "framer-motion": "^6.2.8",
